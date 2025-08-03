@@ -10,7 +10,7 @@ import random
 
 GITHUB, PC = range(2)
 
-PLATFORM = PC
+PLATFORM = GITHUB
 
 CONGRATS = ['Kudos!',
             'Well Done!',
