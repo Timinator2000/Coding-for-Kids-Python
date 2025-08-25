@@ -1,4 +1,6 @@
 title: Coding for Kids - Python
+cover: graphics/PySkillzLogo.png
+
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
