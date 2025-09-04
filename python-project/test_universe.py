@@ -1,6 +1,8 @@
 from universe import count_all_stars
 import builtins
 
+import numpy as np
+
 
 sum_builtin_used = False
 
@@ -43,6 +45,10 @@ def test_count_all_stars():
             send_msg("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ")
             send_msg("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ")
             send_msg("My personal Yoda, you are. 🙏", "_)_/LI")
+
+            arr = np.array([1, 2, 3])
+            print('Here is arr')
+            print(arr)
         else:
             send_msg("Kudos 🌟", "Did you know that you could use the sum function? Try it!")
             send_msg("Kudos 🌟", "")
