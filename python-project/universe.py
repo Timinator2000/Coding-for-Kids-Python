@@ -4,9 +4,13 @@ import time
 
 def try_matplotlib():
 
+    fig = plt.figure()
+
     plt.plot([1,3,4],[2,1,6])
     plt.show()
+    
+    fig.savefig('output.png', dpi=fig.dpi)
 
     time.sleep(5)
-    
+
     return
