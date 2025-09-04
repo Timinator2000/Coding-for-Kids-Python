@@ -9,6 +9,6 @@ def try_matplotlib():
     plt.plot([1,3,4],[2,1,6])
     plt.show()
     
-    fig.savefig('output.png', dpi=fig.dpi)
+    fig.savefig('www/output.png', dpi=fig.dpi)
 
     return

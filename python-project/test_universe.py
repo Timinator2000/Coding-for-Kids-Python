@@ -20,7 +20,7 @@ def send_msg(channel, msg):
 
 def success():
     print("TECHIO> success true")
-    print("TECHIO> open -s /project/target/ index.html")
+    print("TECHIO> open -s /project/target/www index.html")
 
 
 def fail():
