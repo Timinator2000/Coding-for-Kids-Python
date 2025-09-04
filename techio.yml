@@ -8,7 +8,8 @@ plan:
 projects:
   python:
     root: /python-project
-    runner: slothai/numpy
+    runner: faizanbashir/python-datascience
+    # runner: slothai/numpy
   #     runner:
   #     name: python
   #     version: '3'
