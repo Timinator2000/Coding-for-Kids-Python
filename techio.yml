@@ -4,9 +4,12 @@ cover: graphics/PySkillzLogo.png
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+
 projects:
   python:
     root: /python-project
-    runner:
-      name: python
-      version: '3'
+    runner: slothai/numpy
+  #     runner:
+  #     name: python
+  #     version: '3'
+  # numpy-python:
