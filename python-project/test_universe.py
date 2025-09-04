@@ -46,7 +46,7 @@ def test_count_all_stars():
             send_msg("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ")
             send_msg("My personal Yoda, you are. 🙏", "_)_/LI")
 
-            arr = np.array([1, 2, 3])
+            arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
             print('Here is arr')
             print(arr)
             print(type(arr))
