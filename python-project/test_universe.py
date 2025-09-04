@@ -49,6 +49,7 @@ def test_count_all_stars():
             arr = np.array([1, 2, 3])
             print('Here is arr')
             print(arr)
+            print(type(arr))
         else:
             send_msg("Kudos 🌟", "Did you know that you could use the sum function? Try it!")
             send_msg("Kudos 🌟", "")
