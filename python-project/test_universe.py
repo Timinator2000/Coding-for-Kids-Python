@@ -21,8 +21,6 @@ def send_msg(channel, msg):
 def success():
     print("TECHIO> success true")
     print("TECHIO> open -s /project/target/www index.html")
-    print('Finished')
-    print("TECHIO> close")
  
 def fail():
     print("TECHIO> success false")
