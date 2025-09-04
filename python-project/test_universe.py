@@ -30,6 +30,7 @@ def fail():
 def test_count_all_stars():
     try:
         try_matplotlib()
+        success()
     except AssertionError as e:
         fail()
         send_msg("Oops! 🐞", e)

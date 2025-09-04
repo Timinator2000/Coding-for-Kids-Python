@@ -11,6 +11,4 @@ def try_matplotlib():
     
     fig.savefig('output.png', dpi=fig.dpi)
 
-    time.sleep(5)
-
     return
